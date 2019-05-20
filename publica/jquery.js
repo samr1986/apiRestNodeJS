@@ -16,6 +16,7 @@ $(document).ready(function() {
                     success: function(data) {
                     token=data;
 					//salida=token.error;
+					//cambioX	
 					$.each(token, function(i,item){
 						salida = salida + " <br> " + i + " " + item;
 						//salida = "<br>" + i + " - " + token[i].error+" - "+ token[i].codigo+" - "+ token[i].mensaje.nombre+" - " + token[i].mensaje.apellido;
